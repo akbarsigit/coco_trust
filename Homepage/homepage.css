@@ -1,0 +1,573 @@
+/* ------------ Mobile Devices ------------- */
+
+/* Utility */
+.button {
+  width: 100px;
+  background-color: gold;
+  color: white;
+  border-radius: 5px;
+  text-shadow: 0px 0px 0px;
+  font-size: 12px;
+}
+
+/* Navbar */
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-image: url(/image/170px-Muñeco_de_coco.jpg);
+  background-size: cover;
+  position: fixed;
+  z-index: 3;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.navbar-brand {
+  margin-left: 45px;
+  font-family: Palanquin Dark;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.navbar-nav {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.bgcolor {
+  background: #000 !important;
+}
+
+/* Carousel */
+.carousel {
+  z-index: 1;
+}
+
+.carousel-item{
+  height: 400px;
+}
+
+.carousel-inner .First {
+  background-image: url(/image/pexels-milan-4639302.jpg);
+  background-size: cover;
+}
+
+.carousel-inner .First h1 {
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.carousel-inner .First p {
+  font-size: 12px;
+}
+
+.carousel-inner .Second {
+  background-color: black;
+}
+
+.carousel-inner .Third {
+  background-color: black;
+}
+
+.carousel-text{
+  color: white;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+/* Company */
+.Company {
+  margin-top: 80px;
+}
+
+.Company .img-fluid {
+  border-radius: 10px;
+}
+
+.Company h3 {
+  font-family: Palanquin Dark;
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Company p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.Company a {
+  display: block;
+  margin: auto;
+}
+
+/* Our Products */
+.jumbotron {
+  margin-top: 80px;
+  background-image: url(/image/Hexagonal-shape-charcoal-briquettes.jpg);
+  background-size: cover;
+  height: 700px;
+}
+
+.jumbotron .text{
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.jumbotron h3 {
+  font-family: Palanquin Dark;
+  font-size: 32px;
+}
+
+.jumbotron p{
+  font-size: 16px;
+}
+
+.products {
+  margin: 10px 0;
+}
+
+.products .kartu {
+  margin: 0;
+}
+
+.products .kartu h4 {
+  text-align: center;
+  display: none;
+}
+
+.products .kartu h5 {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+
+.products .kartu img{
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: 1.5s ease;
+  margin-top: -70px;
+}
+
+.products .frame {
+  height: 100px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.products .gambar {
+  text-decoration: none;
+}
+
+.gambar:hover img {
+  transform: scale(1.5);
+}
+
+.jumbotron .button {
+  width: 250px;
+}
+
+/* P-Edu */
+.P-Edu {
+  margin: 0;
+}
+
+.P-Edu .Kiri {
+  width: 50%;
+  padding: 0;
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.P-Edu .Kiri img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: -210px 0;
+  transition: 1s;
+  opacity: 0.65;
+}
+
+.P-Edu .Kanan {
+  width: 50%;
+  padding: 0;
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.P-Edu .Kanan img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: -300px 0;
+  transition: 1s;
+  opacity: 0.65;
+}
+
+.P-Edu a{
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  font-family: Palanquin Dark;
+  font-size: 20px;
+  font-weight: 550;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  top: 43%;
+  left: 25%;
+  align-content: center;
+  transition: 1s;
+}
+
+.P-Edu a:hover ~ img{
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="5" /></filter></svg>#filter');
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
+
+.P-Edu a:hover {
+  transform: scale(1.1);
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  height: 450px;
+  background-color: black;
+}
+
+.footer .top{
+  height: 15%;
+  margin: 0;
+}
+
+.footer .top h4{
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  font-weight: 650;
+  font-size: 24px;
+}
+
+.footer .middle {
+  height: 75%;
+  margin: 0 40px;
+  color: white;
+}
+
+.footer .middle .kiri {
+  color: white;
+  text-align: justify;
+}
+
+.footer .middle h5 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.footer .middle p {
+  font-size: 15px;
+}
+
+.frame-footer {
+  display: inline-block;
+  background-color: #414141;
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.fa {
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.fa:hover {
+  color: gold;
+}
+
+.footer .bottom {
+  margin: 0;
+  width: 100%;
+  height: 15%;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------- Dekstop -------------- */
+@media (min-width: 992px) {
+  /* Utility */
+  .button {
+    width: 150px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  /* Navbar */
+
+  .navbar {
+    height: 80px;
+  }
+
+  .logo {
+    width: 70px;
+    height: 70px;
+    margin-left: 100px;
+  }
+
+  .navbar-brand {
+    margin-left: 170px;
+    font-size: 30px;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 70px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .nav-link {
+    height: 80px;
+    width: 100px;
+    line-height: 60px;
+    text-align: center;
+    /* margin-right: 30px; */
+  }
+  
+  .nav-link:hover {
+    background-color: rgba(232, 232, 232, .1);
+  }
+
+  /* kalau pake garis bawah biru */
+  /* .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid blue;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  } */
+
+  .bgcolor {
+    background: transparent !important;
+    transition: 0.75s ease;
+  }
+
+  .bgcolor.scrolled {
+    background: #000 !important;
+  }
+
+  /* Carousel */
+  .carousel-item{
+    height: 640px;
+  }
+
+  .carousel-inner .First h1 {
+    font-size: 72px;
+  }
+
+  .carousel-inner .First p {
+    font-size: 18px;
+  }
+
+  .carousel-inner .carousel-text{
+    width: 900px;
+    margin-top: 250px;
+  }
+
+  /* Company */
+  .Company h3 {
+    font-size: 62px;
+    margin-top: 70px;
+    text-align: left;
+    margin-left: -5px;
+  }
+
+  .Company p {
+    font-size: 18px;
+  }
+
+  .Company a {
+    display: inline-block;
+  }
+
+  /* Products */
+  .jumbotron {
+    height: 1000px;
+  }
+
+  .jumbotron .text{
+    padding-top: 150px;
+  }
+
+  .jumbotron h3 {
+    font-size: 65px;
+  }
+  
+  .jumbotron p{
+    font-size: 20px;
+  }
+
+  .products {
+    margin: 40px 120px 40px 120px;
+  }
+
+  .products .kartu {
+    margin: 0 20px 0px 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.5);
+  }
+
+  .products .kartu h4 {
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    padding: 20px 0;
+    display: block;
+    margin: 0;
+  }
+
+  .products .kartu img{
+    margin: 0;
+    height: 300px;
+    border-radius: 0 0 5px 5px;
+  }
+
+  .products .frame {
+    height: 300px;
+    margin: 0;
+  }
+
+  .products .kartu h5 {
+    display: none;
+  }
+
+  .jumbotron .button {
+    width: 250px;
+    padding: 10px 0;
+    font-size: 15px;
+  }
+
+  /* P-Edu */
+  .P-Edu .Kiri {
+    height: 1000px;
+  }
+
+  .P-Edu .Kiri img {
+    object-position: -280px 0;
+  }
+
+  .P-Edu .Kanan {
+    height: 1000px;
+  }
+
+  .P-Edu .Kanan img {
+    object-position: -600px 0;
+  }
+
+  .P-Edu a {
+    font-size: 65px;
+  }
+
+  /* Footer */
+  .footer {
+    height: 300px;
+  }
+
+  .footer .top{
+    height: 30%;
+  }
+
+  .footer .top h4{
+    padding-left: 40px;
+    padding-top: 60px;
+    font-size: 30px;
+    text-align: left;
+  }
+
+  .footer .middle {
+    padding-top: 20px;
+    height: 55%;
+  }
+
+  .footer .middle h5 {
+    font-size: 24px;
+  }
+
+  .frame-footer {
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+  }
+
+  .fa {
+    font-size: 30px;
+  }
+
+  .footer .bottom {
+    height: 15%;
+    align-content: center;
+  }
+}
